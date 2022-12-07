@@ -1,13 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int ticket = 4000;
-        System.out.println("Цена билета состовляет: " + ticket + " руб.");
+        int ticket = 500;
         int miles;
         if (ticket >= 20) {
             miles = ticket / 20;
-            System.out.println("Количество полученный миль будет: " + miles);
+
         } else {
-            System.out.println("Количество полученный миль будет: 0");
+            miles = 0;
         }
+        System.out.println("Цена билета состовляет: " + ticket + " руб.");
+        System.out.println("Количество полученный миль будет: " + miles);
     }
 }
